@@ -14,7 +14,8 @@ body {
 
 .resume-container {
     background: #fff;
-    width: 210mm;
+    width: 100%;
+    max-width: 210mm;
     min-height: 297mm;
     padding: 15mm 20mm;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -175,7 +176,46 @@ h1 {
     .resume-container {
         box-shadow: none;
         width: 100%;
+        max-width: none;
         min-height: auto;
         padding: 0;
+    }
+}
+
+/* Screen Responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    .resume-container {
+        padding: 20px;
+        box-shadow: none;
+    }
+    .skills-table td, .skills-table th {
+        display: block;
+        width: 100% !important;
+    }
+    .skills-table td:first-child {
+        padding-bottom: 2px;
+    }
+    .skills-table td:last-child {
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    .item-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .item-date, .item-badge {
+        font-size: 8.5pt;
+    }
+    .simple-table td {
+        display: block;
+        width: 100% !important;
+    }
+    .simple-table td:first-child {
+        padding-bottom: 2px;
     }
 }
