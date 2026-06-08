@@ -828,32 +828,52 @@ body {
         padding: 80px 8% 40px;
     }
     .hero {
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding: 140px 8% 60px;
+        padding: 140px 5% 60px;
         gap: 50px;
     }
-    .hero-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .hero-top-text {
+        font-size: 1rem;
     }
-    .buttons {
-        justify-content: center;
+    .solid-text, .outline-text {
+        font-size: clamp(2.8rem, 12vw, 5rem);
+        line-height: 1.1;
+    }
+    .hero-image-wrapper {
+        height: 100%;
+        transform: translate(-50%, -20%);
+    }
+    .hero-bottom-bar {
+        position: relative;
+        bottom: 0;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 40px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn-solid, .btn-outline-box {
+        text-align: center;
+        width: 100%;
     }
     .navbar {
-        padding: 12px 20px;
-        width: 95%;
-    }
-    .navbar ul {
+        padding: 15px;
+        flex-direction: column;
         gap: 15px;
     }
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
     .navbar a {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
-    /* Responsive Media Queries */
     /* Split layouts responsive */
     .split-layout {
         flex-direction: column;
@@ -869,10 +889,10 @@ body {
         padding: 80px 5%;
     }
     .massive-bg-text {
-        font-size: clamp(4rem, 15vw, 10rem);
+        font-size: clamp(3rem, 15vw, 6rem);
     }
     .massive-contact-title {
-        font-size: clamp(4rem, 12vw, 8rem);
+        font-size: clamp(3rem, 15vw, 6rem);
     }
     .minimal-list {
         flex-direction: column;
@@ -884,9 +904,12 @@ body {
         gap: 10px;
         padding: 20px 0;
     }
+    .project-title-outline {
+        font-size: clamp(2.5rem, 10vw, 4rem);
+    }
     .project-hover-details {
         text-align: left;
-        opacity: 0.8; /* Always show details on mobile */
+        opacity: 0.8;
     }
     .timeline-row {
         flex-direction: column;
@@ -901,6 +924,7 @@ body {
     }
     .social-links-minimal {
         flex-wrap: wrap;
+        justify-content: center;
         gap: 20px;
     }
     
