@@ -1,0 +1,106 @@
+{
+    "hero": {
+        "name": "Fauzan Mohammed",
+        "title": "Computer Science & Engineering Student",
+        "description": "Motivated CSE student with hands-on experience building and deploying full-stack web applications and AI integrations.",
+        "stats": [
+            { "number": "2", "label": "Full-Stack Apps" },
+            { "number": "A+", "label": "AI Grade" },
+            { "number": "3", "label": "Certifications" }
+        ],
+        "image": "profile-cutout.png",
+        "socials": [
+            { "platform": "GitHub", "icon": "bx bxl-github", "link": "https://github.com/0Fauzan" },
+            { "platform": "LinkedIn", "icon": "bx bxl-linkedin", "link": "https://linkedin.com/in/fauzanmohammedpp" },
+            { "platform": "Gmail", "icon": "bx bx-envelope", "link": "mailto:fauzanmohammedpp9a@gmail.com" }
+        ]
+    },
+    "about": {
+        "bio": "I'm a detail-oriented Computer Science and Engineering student at KMCT IETM (KTU), Second Year, with a strong foundation in software development. I build production-ready applications with modern web frameworks and AI integrations, demonstrating a practical approach to real-world problem solving.",
+        "focusAreas": [
+            { "title": "Core Dev", "desc": "Django, Flask, SQLAlchemy, and backend MVT/MVC workflows." },
+            { "title": "AI Integration", "desc": "Hugging Face Inference API and Web Speech API implementation." },
+            { "title": "DevOps & Cloud", "desc": "CI/CD pipelines, Docker containerization, and staging on Render/AWS." }
+        ]
+    },
+    "skills": {
+        "description": "Equipped with a solid foundation in software architecture, cloud staging, database design, and intelligent APIs. Focused on building clean backend logic and responsive UIs.",
+        "softSkills": ["OOP Concepts", "MVC / MVT", "DB Normalization"],
+        "categories": [
+            { "name": "Languages", "items": "Python, JavaScript (ES6+), C, HTML, CSS, SQL" },
+            { "name": "Frameworks & Libraries", "items": "Django, Flask, SQLAlchemy, pdfplumber" },
+            { "name": "Databases", "items": "PostgreSQL, SQLite, MySQL" },
+            { "name": "Auth & APIs", "items": "JWT, Hugging Face Inference API, Web Speech API, REST APIs" },
+            { "name": "Tools & Platforms", "items": "Git, GitHub, VS Code, Linux (WSL), Render.com" },
+            { "name": "Design", "items": "Figma, Adobe Photoshop, UI/UX Prototyping" }
+        ]
+    },
+    "projects": [
+        {
+            "name": "LifeFlow",
+            "status": "Deployed • Blood Bank Management System",
+            "description": "Full-stack web application for blood bank operations — donor registration, inventory tracking, and request management. Migrated database schemas to PostgreSQL and resolved CSRF and date handling configurations in production.",
+            "tags": ["Django", "PostgreSQL", "Python"],
+            "links": [
+                { "name": "GitHub", "url": "https://github.com/0Fauzan/Lifeflow" },
+                { "name": "Live Demo", "url": "https://lifeflow-byi4.onrender.com" }
+            ]
+        },
+        {
+            "name": "SmartHire",
+            "status": "In Progress • AI Recruitment Platform",
+            "description": "Dual-portal platform with AI-driven resume scoring, coding assessments, and behavioral coaching. Integrates Hugging Face Inference API for automated code evaluation and Web Speech API for fluency analysis.",
+            "tags": ["Flask", "HuggingFace", "WebSpeech"],
+            "links": [
+                { "name": "GitHub", "url": "https://github.com/0Fauzan/Smarthire" },
+                { "name": "Live Demo", "url": "https://smarthire-71a4.onrender.com" }
+            ]
+        },
+        {
+            "name": "DevOps Pipeline",
+            "status": "Staging & Automation",
+            "description": "Automated deployment pipeline utilizing Docker containers and GitHub Actions for continuous integration. Set up infrastructure scaling and monitoring metrics.",
+            "tags": ["Docker", "CI/CD", "AWS"],
+            "links": []
+        }
+    ],
+    "experience": {
+        "work": [
+            {
+                "role": "Graphic Designer Intern",
+                "company": "Speakerbox Media LLP",
+                "date": "Apr – May 2023",
+                "details": "Designed social media creatives, collaborated on brand designs, and produced 10+ digital creative assets."
+            }
+        ],
+        "education": [
+            {
+                "degree": "B.Tech – Computer Science & Engineering",
+                "institution": "KMCT Emerging Institute of Technology and Management (KTU)",
+                "date": "2022 – 2026",
+                "score": "CGPA: 7.29 / 10 (Second Year)"
+            },
+            {
+                "degree": "Higher Secondary Education (Class XII)",
+                "institution": "MES HSS Mampad (Kerala State Board)",
+                "date": "2020 – 2022",
+                "score": "Score: 92.58%"
+            },
+            {
+                "degree": "SSLC (Class X)",
+                "institution": "St. Francis School Vaniyambalam (CBSE)",
+                "date": "2020",
+                "score": "Score: 88.17%"
+            }
+        ]
+    },
+    "certifications": [
+        { "name": "AI Bootcamp (Overall: A+)", "issuer": "NIELIT Calicut • FutureSkills PRIME", "date": "Feb 2024" },
+        { "name": "Digital 101 (Silver Category)", "issuer": "FutureSkills PRIME", "date": "Score: 68% • Apr 2025" },
+        { "name": "Cybersecurity Physical Pentesting Workshop", "issuer": "RedTeam Hacker Academy", "date": "Aug 2024" }
+    ],
+    "activities": ["NSS Volunteer", "Event Coordinator", "Athletics", "Football", "AI/ML", "DevOps", "Cybersecurity"],
+    "contact": {
+        "status": "Seeking Internships (Immediate Start)"
+    }
+}

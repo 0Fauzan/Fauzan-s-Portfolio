@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauzan Mohammed | Computer Science Student & Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-wrapper" id="cursor-wrapper">
+        <div class="cursor-visual" id="cursor-visual">
+            <svg viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="cursorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#FFF4E5" />
+                        <stop offset="40%" stop-color="#FFD700" />
+                        <stop offset="100%" stop-color="#D9B382" />
+                    </linearGradient>
+                    <filter id="cursorShadow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feDropShadow dx="1" dy="3" stdDeviation="2" flood-opacity="0.6" flood-color="#000" />
+                    </filter>
+                </defs>
+                <path d="M 4 4 L 28 12 Q 13 13 12 28 Z" fill="url(#cursorGrad)" stroke="#1F2D33" stroke-width="1.5" filter="url(#cursorShadow)" stroke-linejoin="round"/>
+                <path d="M 6 7 L 23 13" stroke="#FFF4E5" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M 6 7 L 13 23" stroke="#FFF4E5" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+        </div>
+    </div>
+    <div class="cursor-trail" id="cursor-trail"></div>
+
+    <canvas id="cyber-grid"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">FAUZAN</div>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="btn-primary" style="padding: 5px 15px;" download>Resume</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero redesigned-hero">
+        <div class="hero-top-text reveal">
+            <span class="wave">👋</span> Hi, my name is Fauzan and I am a
+        </div>
+        
+        <div class="hero-typography reveal tilt">
+            <h1 class="solid-text">Full-Stack Dev</h1>
+            <h1 class="outline-text">&amp; AI Enthusiast</h1>
+            
+            <div class="hero-image-wrapper">
+                <img src="profile-cutout.png" alt="Fauzan Mohammed" class="hero-center-img">
+            </div>
+        </div>
+
+        <div class="hero-bottom-bar reveal">
+            <div class="location-text">
+                based in Kerala, India.
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-solid">You need a developer</a>
+                <a href="#contact" class="btn-outline-box">You need an AI integration</a>
+            </div>
+            <div class="explore-text">
+                <a href="#about" class="explore-link">Explore <i class='bx bx-search-alt-2'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="redesigned-section reveal">
+        <div class="massive-bg-text">ABOUT</div>
+        <div class="content-overlay">
+            <p class="about-desc">
+                I'm a detail-oriented Computer Science and Engineering student at KMCT IETM (KTU), building production-ready applications with modern web frameworks and AI integrations.
+            </p>
+            <div class="minimal-list">
+                <div class="minimal-item magnetic">
+                    <h4>Core Dev</h4>
+                    <span>Django, Flask, SQLAlchemy</span>
+                </div>
+                <div class="minimal-item magnetic">
+                    <h4>AI Integration</h4>
+                    <span>Hugging Face API, Web Speech API</span>
+                </div>
+                <div class="minimal-item magnetic">
+                    <h4>DevOps & Cloud</h4>
+                    <span>CI/CD, Docker, Render/AWS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="redesigned-section reveal">
+        <div class="massive-bg-text">SKILLS</div>
+        <div class="content-overlay">
+            <p class="about-desc">
+                Equipped with a solid foundation in software architecture, cloud staging, database design, and intelligent APIs.
+            </p>
+            <div class="skills-minimal-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="magnetic">Python</span><span class="magnetic">JavaScript (ES6+)</span><span class="magnetic">C</span><span class="magnetic">HTML & CSS</span><span class="magnetic">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="magnetic">Django</span><span class="magnetic">Flask</span><span class="magnetic">SQLAlchemy</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="magnetic">PostgreSQL</span><span class="magnetic">SQLite</span><span class="magnetic">MySQL</span><span class="magnetic">Docker</span><span class="magnetic">Render.com</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>APIs & Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="magnetic">Hugging Face API</span><span class="magnetic">Web Speech API</span><span class="magnetic">JWT</span><span class="magnetic">OOP</span><span class="magnetic">MVC / MVT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="redesigned-section reveal">
+        <div class="massive-bg-text" style="top: 30%;">WORK</div>
+        <div class="content-overlay">
+            <div class="project-list">
+                <a href="https://lifeflow-byi4.onrender.com" target="_blank" class="project-row">
+                    <span class="project-num">01 /</span>
+                    <h3 class="project-title-outline">LIFEFLOW</h3>
+                    <div class="project-hover-details">
+                        <p>Blood Bank Management System</p>
+                        <span class="project-tech">Django • PostgreSQL</span>
+                    </div>
+                </a>
+                <a href="https://smarthire-71a4.onrender.com" target="_blank" class="project-row">
+                    <span class="project-num">02 /</span>
+                    <h3 class="project-title-outline">SMARTHIRE</h3>
+                    <div class="project-hover-details">
+                        <p>AI Recruitment Platform</p>
+                        <span class="project-tech">Flask • HuggingFace</span>
+                    </div>
+                </a>
+                <a href="https://github.com/0Fauzan" target="_blank" class="project-row">
+                    <span class="project-num">03 /</span>
+                    <h3 class="project-title-outline">CAMPAIGNS</h3>
+                    <div class="project-hover-details">
+                        <p>Graphic Portfolio</p>
+                        <span class="project-tech">Figma • Photoshop</span>
+                    </div>
+                </a>
+                <a href="https://github.com/0Fauzan" target="_blank" class="project-row">
+                    <span class="project-num">04 /</span>
+                    <h3 class="project-title-outline">DEVOPS</h3>
+                    <div class="project-hover-details">
+                        <p>Staging & Automation</p>
+                        <span class="project-tech">Docker • AWS</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="projects-cta" style="margin-top: 50px; text-align: center;">
+                <a href="https://github.com/0Fauzan" target="_blank" class="btn-outline-box magnetic">View All Projects on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="redesigned-section reveal">
+        <div class="massive-bg-text" style="top: 35%;">TIMELINE</div>
+        <div class="content-overlay">
+            <div class="timeline-architectural">
+                <div class="timeline-row magnetic">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <h3>AI Bootcamp (Overall: A+)</h3>
+                        <span>NIELIT Calicut • FutureSkills PRIME</span>
+                    </div>
+                </div>
+                <div class="timeline-row magnetic">
+                    <div class="timeline-year">2023</div>
+                    <div class="timeline-content">
+                        <h3>Graphic Designer Intern</h3>
+                        <span>Speakerbox Media LLP</span>
+                        <p>Designed social media creatives, collaborated on brand designs, and produced 10+ digital creative assets.</p>
+                    </div>
+                </div>
+                <div class="timeline-row magnetic">
+                    <div class="timeline-year">2022 &mdash; 2026</div>
+                    <div class="timeline-content">
+                        <h3>B.Tech &ndash; Computer Science</h3>
+                        <span>KMCT Emerging Institute of Technology and Management (KTU)</span>
+                        <p>CGPA: 7.29 / 10</p>
+                    </div>
+                </div>
+                <div class="timeline-row magnetic">
+                    <div class="timeline-year">2020 &mdash; 2022</div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary (Class XII)</h3>
+                        <span>MES HSS Mampad (Kerala State Board)</span>
+                        <p>Score: 92.58%</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certifications-block" style="margin-top: 50px;">
+                <h3 style="color: var(--light); font-size: 1.2rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 20px;">Other Credentials & Activities</h3>
+                <div class="minimal-list">
+                    <div class="minimal-item magnetic">
+                        <h4>Digital 101</h4>
+                        <span>Silver Category • Apr 2025</span>
+                    </div>
+                    <div class="minimal-item magnetic">
+                        <h4>Cybersecurity Pentesting</h4>
+                        <span>RedTeam Hacker Academy • Aug 2024</span>
+                    </div>
+                    <div class="minimal-item magnetic">
+                        <h4>Interests</h4>
+                        <span>NSS Volunteer, Athletics, Football</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="redesigned-section reveal" style="min-height: 80vh; justify-content: flex-end; padding-bottom: 100px;">
+        <h2 class="massive-contact-title">LET'S<br>TALK.</h2>
+        <div class="content-overlay" style="max-width: 800px; gap: 40px; margin: 0 auto;">
+            <p class="about-desc" style="text-align: center; margin: 0 auto;">
+                Open for internships, collaboration, and interesting projects. Drop a message!
+            </p>
+            
+            <form id="contactForm" class="minimal-form">
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" required class="minimal-input">
+                    <input type="email" placeholder="Your Email" required class="minimal-input">
+                </div>
+                <textarea placeholder="Your Message" required class="minimal-input minimal-textarea"></textarea>
+                <button type="submit" class="btn-outline-box magnetic" style="align-self: center; border-color: var(--accent); color: var(--accent);">
+                    Send Message
+                </button>
+            </form>
+            
+            <div class="status-capsule" style="justify-content: center; margin-top: 20px;">
+                <span class="status-dot"></span>
+                <span class="status-text">Seeking Internships (Immediate Start)</span>
+            </div>
+            
+            <div class="social-links-minimal">
+                <a href="mailto:fauzanmohammedpp9a@gmail.com" class="magnetic">Email</a>
+                <a href="https://github.com/0Fauzan" target="_blank" class="magnetic">GitHub</a>
+                <a href="https://linkedin.com/in/fauzanmohammedpp" target="_blank" class="magnetic">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="minimal-footer">
+        <p>&copy; 2026 Fauzan Mohammed &bull; Building the Future</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
